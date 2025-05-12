@@ -40,7 +40,7 @@ Selenium tabanlı bir otomasyon aracı ile Kick platformundaki yayınlara izleyi
 ##Önemli Notlar
 - Sistem Yükü: CPU veya RAM kullanımı %99’u aşarsa, botlar otomatik olarak durdurulur.
 - Proxy Doğrulama: Geçersiz proxy formatları loglanır ve kullanılmaz.
-- API Kullanımı: İzleyici sayısı ve yayın durumu, harici bir API (http://77.90.53.116:2531/scrape/channel/) üzerinden alınır. Bu API’nin erişilebilir olduğundan emin olun.
+- API Kullanımı: İzleyici sayısı ve yayın durumu, harici bir API (Kendi apinizi kullanın) üzerinden alınır. Bu API’nin erişilebilir olduğundan emin olun.
 - ChromeDriver Uyumluluğu: ChromeDriver sürümünün tarayıcınızla eşleşmesi gerekir, aksi takdirde hata alırsınız.
 - Hata Ayıklama: Herhangi bir hata durumunda, log dosyalarını ve konsol çıktısını kontrol edin.
 
