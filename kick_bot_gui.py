@@ -222,7 +222,7 @@ def get_channel_name(url):
 def get_viewer_count(channel_name):
     """API'den izleyici sayısını ve yayın durumunu al."""
     try:
-        api_url = f"http://77.90.53.116:2531/scrape/channel/{channel_name}"
+        api_url = f"https://kick.com/api/v1/channels/{channel_name}"
         response = requests.get(api_url, timeout=10)
         if response.status_code == 200:
             data = response.json()
