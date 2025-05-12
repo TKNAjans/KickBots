@@ -31,12 +31,32 @@ Selenium tabanlı bir otomasyon aracı ile Kick platformundaki yayınlara izleyi
 
 ## 🔧 Kurulum
 
+## Gereksinimler
+- **Python**: 3.8 veya üstü (3.12 önerilir)
+- **Chrome Tarayıcı**: Güncel sürüm
+- **ChromeDriver**: Chrome tarayıcı sürümüne uygun
+- **İşletim Sistemi**: Windows (Linux veya macOS için ek yapılandırma gerekebilir)
+
+##Önemli Notlar
+- Sistem Yükü: CPU veya RAM kullanımı %99’u aşarsa, botlar otomatik olarak durdurulur.
+- Proxy Doğrulama: Geçersiz proxy formatları loglanır ve kullanılmaz.
+- API Kullanımı: İzleyici sayısı ve yayın durumu, harici bir API (http://77.90.53.116:2531/scrape/channel/) üzerinden alınır. Bu API’nin erişilebilir olduğundan emin olun.
+- ChromeDriver Uyumluluğu: ChromeDriver sürümünün tarayıcınızla eşleşmesi gerekir, aksi takdirde hata alırsınız.
+- Hata Ayıklama: Herhangi bir hata durumunda, log dosyalarını ve konsol çıktısını kontrol edin.
+
+## Bağımlılıklar
+Projenin çalışması için aşağıdaki Python kütüphaneleri gereklidir:
+```bash
+pip install ttkbootstrap selenium psutil requests
+```
+
 ### 1. Depoyu Klonlayın
 ```bash
 git clone https://github.com/TKNAjans/KickBots.git
 ```
+```bash
 cd kickbots
-
+```
 ⚠️ Yasal Uyarı / Sorumluluk Reddi
 
 Bu yazılım yalnızca eğitim, test ve araştırma amaçlı geliştirilmiştir. Amacı, otomasyon tekniklerinin öğrenilmesini sağlamak ve kişisel projelerde kullanılabilecek örnek bir otomasyon altyapısı sunmaktır.
