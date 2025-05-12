@@ -33,5 +33,16 @@ Selenium tabanlı bir otomasyon aracı ile Kick platformundaki yayınlara izleyi
 
 ### 1. Depoyu Klonlayın
 ```bash
-git clone https://github.com/kullanici_adi/kickbots.git
+git clone https://github.com/TKNAjans/KickBots.git
+```
 cd kickbots
+
+⚠️ Yasal Uyarı / Sorumluluk Reddi
+
+Bu yazılım yalnızca eğitim, test ve araştırma amaçlı geliştirilmiştir. Amacı, otomasyon tekniklerinin öğrenilmesini sağlamak ve kişisel projelerde kullanılabilecek örnek bir otomasyon altyapısı sunmaktır.
+
+Kick platformu gibi canlı yayın servislerinin kullanım koşulları, bot kullanımını açıkça yasaklamış olabilir. Bu yazılımı üçüncü taraf platformlarda kullanmak, ilgili platformun hizmet şartlarını ihlal edebilir ve kullanıcı hesabınızın kalıcı olarak yasaklanmasına yol açabilir.
+
+Bu yazılımın kötüye kullanımından doğacak her türlü sonuçtan yalnızca kullanıcı sorumludur. Yazılım geliştiricisi, bu yazılımın doğrudan veya dolaylı kullanımından kaynaklı oluşabilecek hiçbir yasal, teknik veya etik sorumluluğu kabul etmez.
+
+Yazılımı indirerek veya kullanarak, bu koşulları okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan etmiş olursunuz.
