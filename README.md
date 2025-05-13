@@ -1,4 +1,12 @@
 # KickBots
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/TKNAjans/KickBots)](https://github.com/TKNAjans/KickBots/releases)
+[![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
+[![Last Commit](https://img.shields.io/github/last-commit/TKNAjans/KickBots)](https://github.com/TKNAjans/KickBots/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/TKNAjans/KickBots)](https://github.com/TKNAjans/KickBots)
+[![Contributors](https://img.shields.io/github/contributors/TKNAjans/KickBots)](https://github.com/TKNAjans/KickBots/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/TKNAjans/KickBots)](https://github.com/TKNAjans/KickBots/issues)
+[![📚 Documentation](https://img.shields.io/badge/📚-DOCUMENTATION-black?style=flat)](https://github.com/TKNAjans/KickBots#readme)
 
 **Kick Bot Kontrol Paneli**  
 Selenium tabanlı bir otomasyon aracı ile Kick platformundaki yayınlara izleyici botları gönderebilmenizi sağlar. Kullanıcı dostu arayüzü ile bot sayısı, yayın URL’si, proxy ve dil seçeneklerini kolayca yapılandırabilirsiniz.
